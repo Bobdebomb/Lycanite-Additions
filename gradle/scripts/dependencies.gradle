@@ -1,8 +1,6 @@
 apply from: 'gradle/scripts/helpers.gradle'
 
 repositories {
-    // Other repositories described by default:
-    // CleanroomMC: https://maven.cleanroommc.com
     exclusiveContent {
         forRepository {
             maven {
@@ -29,6 +27,7 @@ repositories {
 }
 
 dependencies {
+    implementation ("curse.maven:Lycanites-Mobs-224770:5750564")
     // Include StripLatestForgeRequirements by default for the dev env, saves everyone a hassle
     runtimeOnly 'com.cleanroommc:strip-latest-forge-requirements:1.0'
     // Include OSXNarratorBlocker by default for the dev env, for M1+ Macs
