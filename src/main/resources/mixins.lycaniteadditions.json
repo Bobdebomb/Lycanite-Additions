@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.lycaniteadditions.mixin",
+	"refmap": "mixins.lycaniteadditions.refmap.json",
+	"compatibilityLevel": "JAVA_8",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8",
+	"mixins": [
+		"lycanitesmobs.JSONDungeons_LycaniteAdditionsMixin",
+		"lycanitesmobs.JSONLoader_LycaniteAdditionsMixin",
+		"lycanitesmobs.JSONMobEvents_LycaniteAdditionsMixin",
+		"lycanitesmobs.JSONSpawners_LycaniteAdditionsMixin"
+	],
+	"injectors": {
+		"maxShiftBy": 10
+	}
+}
