@@ -1,4 +1,4 @@
-package com.LycaniteAdditions.core.entity.creature;
+package com.lycaniteadditions.core.entity.creature;
 
 import com.lycanitesmobs.core.entity.TameableCreatureEntity;
 import com.lycanitesmobs.core.entity.goals.actions.AttackMeleeGoal;

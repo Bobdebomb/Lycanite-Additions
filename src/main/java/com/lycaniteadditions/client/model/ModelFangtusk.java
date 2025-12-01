@@ -1,4 +1,4 @@
-package com.LycaniteAdditions.client.model;
+package com.lycaniteadditions.client.model;
 
 import com.lycanitesmobs.LycanitesMobs;
 import com.lycanitesmobs.client.model.template.ModelTemplateQuadruped;

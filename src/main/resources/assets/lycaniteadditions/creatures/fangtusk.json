@@ -5,7 +5,7 @@
         "monster"
     ],
     "entityClass": "com.lycaniteadditions.core.entity.creature.EntityFangtusk",
-    "modelClass": "com.lycaniteadditions.client.model.creature.ModelFangtusk",
+    "modelClass": "com.lycaniteadditions.client.model.ModelFangtusk",
     "loadDefault": true,
     "enabled": true,
     "spawning": {
