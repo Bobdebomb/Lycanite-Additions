@@ -4,8 +4,8 @@
     "groups": [
         "monster"
     ],
-    "entityClass": "com.lycaniteadditions.core.entity.creature.EntityFangtusk",
-    "modelClass": "com.lycaniteadditions.client.model.ModelFangtusk",
+    "entityClass": "com.lycaniteadditions.core.entity.creature.entityfangtusk",
+    "modelClass": "com.lycaniteadditions.client.model.modelfangtusk",
     "loadDefault": true,
     "enabled": true,
     "spawning": {

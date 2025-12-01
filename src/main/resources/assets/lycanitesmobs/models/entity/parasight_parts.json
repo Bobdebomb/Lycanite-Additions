@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Body",
+    "parent": "",
+    "centerX": "0.081",
+    "centerY": "1.416",
+    "centerZ": "-0.0",
+    "rotationX": "0.0",
+    "rotationY": "90.643",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "TentacleLeft03",
+    "parent": "Body",
+    "centerX": "0.07",
+    "centerY": "1.496",
+    "centerZ": "-1.64",
+    "rotationX": "0.0",
+    "rotationY": "90.754",
+    "rotationZ": "85.604"
+  },
+  {
+    "name": "TentacleRight02",
+    "parent": "Body",
+    "centerX": "-1.098",
+    "centerY": "1.082",
+    "centerZ": "0.295",
+    "rotationX": "88.563",
+    "rotationY": "93.578",
+    "rotationZ": "-11.523"
+  },
+  {
+    "name": "TentacleLeft01",
+    "parent": "Body",
+    "centerX": "1.075",
+    "centerY": "1.685",
+    "centerZ": "0.488",
+    "rotationX": "85.515",
+    "rotationY": "75.163",
+    "rotationZ": "-19.849"
+  },
+  {
+    "name": "TentacleRight01",
+    "parent": "Body",
+    "centerX": "-0.901",
+    "centerY": "1.685",
+    "centerZ": "0.511",
+    "rotationX": "85.515",
+    "rotationY": "75.163",
+    "rotationZ": "-19.849"
+  },
+  {
+    "name": "TentacleLeft02",
+    "parent": "Body",
+    "centerX": "1.267",
+    "centerY": "1.082",
+    "centerZ": "0.267",
+    "rotationX": "88.563",
+    "rotationY": "93.578",
+    "rotationZ": "-11.523"
+  }
+]

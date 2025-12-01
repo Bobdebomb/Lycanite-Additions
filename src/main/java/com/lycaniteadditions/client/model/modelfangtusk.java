@@ -1,0 +1,34 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package com.lycaniteadditions.client.model;
+
+import com.lycanitesmobs.LycanitesMobs;
+import com.lycanitesmobs.client.model.template.ModelTemplateQuadruped;
+import net.minecraft.entity.EntityLiving;
+
+public class modelfangtusk extends ModelTemplateQuadruped {
+    public modelfangtusk() {
+        this(1.0F);
+    }
+
+    public modelfangtusk(float shadowSize) {
+        this.initModel("fangtusk", LycanitesMobs.modInfo, "entity/fangtusk");
+        this.lookHeadScaleX = 0.5F;
+        this.lookHeadScaleY = 0.5F;
+        this.trophyScale = 0.8F;
+        this.trophyOffset = new float[]{0.0F, 0.0F, -0.4F};
+        this.trophyMouthOffset = new float[]{0.0F, -0.25F, 0.0F};
+        this.bodyIsTrophy = true;
+    }
+
+    public void animatePart(String partName, EntityLiving entity, float time, float distance, float loop, float lookY, float lookX, float scale) {
+        super.animatePart(partName, entity, time, distance, loop, lookY, lookX, scale);
+        if (partName.equals("tongue")) {
+            this.scale(this.getAttackProgress() * 2.0F, this.getAttackProgress() * 2.0F, this.getAttackProgress() * 2.0F);
+        }
+
+    }
+}

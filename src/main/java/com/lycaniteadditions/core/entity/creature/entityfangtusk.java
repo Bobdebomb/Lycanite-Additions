@@ -11,12 +11,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 
-public class EntityFangtusk extends TameableCreatureEntity implements IMob {
+public class entityfangtusk extends TameableCreatureEntity implements IMob {
 
     // ==================================================
     //                    Constructor
     // ==================================================
-    public EntityFangtusk(World world) {
+    public entityfangtusk(World world) {
         super(world);
 
         // Setup:
