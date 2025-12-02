@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Body",
+    "parent": "",
+    "centerX": "-0.016",
+    "centerY": "1.964",
+    "centerZ": "0.134"
+  },
+  {
+    "name": "Head",
+    "parent": "Body",
+    "centerX": "-0.013",
+    "centerY": "2.678",
+    "centerZ": "0.671"
+  },
+  {
+    "name": "Spike02",
+    "parent": "Body",
+    "centerX": "-0.797",
+    "centerY": "3.031",
+    "centerZ": "-0.028"
+  },
+  {
+    "name": "LeftLeg",
+    "parent": "Body",
+    "centerX": "-0.497",
+    "centerY": "0.761",
+    "centerZ": "-0.0"
+  },
+  {
+    "name": "RightLeg",
+    "parent": "Body",
+    "centerX": "0.544",
+    "centerY": "0.761",
+    "centerZ": "0.007"
+  },
+  {
+    "name": "RightArm",
+    "parent": "Body",
+    "centerX": "0.594",
+    "centerY": "2.066",
+    "centerZ": "0.721"
+  },
+  {
+    "name": "Spike01",
+    "parent": "Body",
+    "centerX": "0.765",
+    "centerY": "3.031",
+    "centerZ": "-0.028"
+  },
+  {
+    "name": "LeftArm",
+    "parent": "Body",
+    "centerX": "-0.663",
+    "centerY": "2.066",
+    "centerZ": "0.697"
+  }
+]

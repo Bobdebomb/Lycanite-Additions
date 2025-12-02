@@ -21,3 +21,13 @@ entity.jubjub.description=Jubjubs are cockens that navigate the skies just like 
 entity.jubjub.habitat=In The skies of jungles
 entity.jubjub.combat=Jubjubs inflict paralysis on hit so be careful!
 entity.jubjub.name=Jubjub
+
+entity.lushrak.description=Golems that lurk in dense forests chilling, they do not like people intruding on them.
+entity.lushrak.habitat=Usually they chill in forests.
+entity.lushrak.combat=Lushraks will give you poison!
+entity.lushrak.name=Lushrak
+
+entity.mycoflawg.name=Mycoflawg
+entity.mycoflawg.description=Deadly preaditors that stalk mountains at night, similar to the Barghest.
+entity.mycoflawg.habitat=These beasts are usually found in mountainous areas.
+entity.mycoflawg.combat=Mycoflawgs leap at their prey and inflict bleeding.
