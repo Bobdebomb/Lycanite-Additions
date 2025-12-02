@@ -1,4 +1,12 @@
-subspecies.cobalt=Cobalt
+subspecies.cobalt.namew=Cobalt
+subspecies.irritated.name=Irritated
+subspecies.blood.name=Blood
+subspecies.crimson.name=Crimson
+subspecies.oceanic.name=Oceanic
+subspecies.granite.name=Granite
+
+creaturetype.cocken.name=Cocken
+
 entity.fangtusk.description=Aglebemus warped and muitated by magic, they now roam as discusting large red beasts!
 entity.fangtusk.habitat=These beasts are usually found in swamplands.
 entity.fangtusk.combat=Fangtusks use their tusks to bash into you, causing bleeding and poison, ouch!
@@ -8,3 +16,8 @@ entity.parasight.description=Parasights are intresting creatures as they resmble
 entity.parasight.habitat=In the dark caves
 entity.parasight.combat=Parasights phase through the walls and attack, inflicting fear in the process.
 entity.parasight.name=Parasight
+
+entity.jubjub.description=Jubjubs are cockens that navigate the skies just like their cousins, the cockatrice!.
+entity.jubjub.habitat=In The skies of jungles
+entity.jubjub.combat=Jubjubs inflict paralysis on hit so be careful!
+entity.jubjub.name=Jubjub

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Body",
+    "parent": "",
+    "centerX": "0.0",
+    "centerY": "2.63",
+    "centerZ": "-0.0"
+  },
+  {
+    "name": "Neck",
+    "parent": "Body",
+    "centerX": "0.0",
+    "centerY": "3.63",
+    "centerZ": "1.6"
+  },
+  {
+    "name": "LegLeft",
+    "parent": "Body",
+    "centerX": "0.75",
+    "centerY": "2.23",
+    "centerZ": "-0.1"
+  },
+  {
+    "name": "LegRight",
+    "parent": "Body",
+    "centerX": "-0.75",
+    "centerY": "2.23",
+    "centerZ": "-0.1"
+  },
+  {
+    "name": "Tail",
+    "parent": "Body",
+    "centerX": "0.0",
+    "centerY": "2",
+    "centerZ": "-1.7"
+  },
+  {
+    "name": "WingRightLower",
+    "parent": "WingRightUpper",
+    "centerX": "0",
+    "centerY": "3",
+    "centerZ": "0"
+  },
+  {
+    "name": "WingRightUpper",
+    "parent": "Body",
+    "centerX": "0",
+    "centerY": "3",
+    "centerZ": "0"
+  },
+  {
+    "name": "WingLeftLower",
+    "parent": "WingLeftUpper",
+    "centerX": "0",
+    "centerY": "3",
+    "centerZ": "0"
+  },
+  {
+    "name": "WingLeftUpper",
+    "parent": "Body",
+    "centerX": "0",
+    "centerY": "3",
+    "centerZ": "0"
+  },
+  {
+    "name": "Head",
+    "parent": "Neck",
+    "centerX": "0.0",
+    "centerY": "4",
+    "centerZ": "2.3"
+  },
+  {
+    "name": "Mouth",
+    "parent": "Head",
+    "centerX": "0.0",
+    "centerY": "4",
+    "centerZ": "2.3"
+  }
+]

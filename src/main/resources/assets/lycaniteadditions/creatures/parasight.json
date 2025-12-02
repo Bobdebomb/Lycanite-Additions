@@ -4,8 +4,8 @@
   "groups": [
     "monster"
   ],
-  "entityClass": "com.lycanitesmobs.core.entity.creature.entityparasight",
-  "modelClass": "com.lycanitesmobs.client.model.creature.modelparasight",
+  "entityClass": "com.lycaniteadditions.core.entity.creature.entityparasight",
+  "modelClass": "com.lycaniteadditions.client.model.modelparasight",
   "loadDefault": true,
   "enabled": true,
   "spawning": {
