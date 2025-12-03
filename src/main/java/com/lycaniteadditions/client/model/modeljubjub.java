@@ -1,11 +1,12 @@
 package com.lycaniteadditions.client.model;
 
+import com.lycaniteadditions.client.model.template.ModelTemplateCocken;
 import com.lycanitesmobs.LycanitesMobs;
 import com.lycanitesmobs.client.model.template.ModelTemplateDragon;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.util.math.MathHelper;
 
-public class modeljubjub extends ModelTemplateDragon {
+public class modeljubjub extends ModelTemplateCocken {
 
     // ==================================================
     //                    Constructors

@@ -54,11 +54,6 @@ public class entityparasight extends TameableCreatureEntity implements IMob {
             }
         }
 
-        // Particles:
-        if(this.getEntityWorld().isRemote)
-            for(int i = 0; i < 2; ++i) {
-                this.getEntityWorld().spawnParticle(EnumParticleTypes.SPELL_WITCH, this.posX + (this.rand.nextDouble() - 0.5D) * (double)this.width, this.posY + this.rand.nextDouble() * (double)this.height, this.posZ + (this.rand.nextDouble() - 0.5D) * (double)this.width, 0.0D, 0.0D, 0.0D);
-            }
     }
 
 

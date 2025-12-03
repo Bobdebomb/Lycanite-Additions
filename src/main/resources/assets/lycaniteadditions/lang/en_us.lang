@@ -28,6 +28,26 @@ entity.lushrak.combat=Lushraks will give you poison!
 entity.lushrak.name=Lushrak
 
 entity.mycoflawg.name=Mycoflawg
-entity.mycoflawg.description=Deadly preaditors that stalk mountains at night, similar to the Barghest.
+entity.mycoflawg.description=Deadly predators that stalk mountains at night, similar to the Barghest.
 entity.mycoflawg.habitat=These beasts are usually found in mountainous areas.
 entity.mycoflawg.combat=Mycoflawgs leap at their prey and inflict bleeding.
+
+entity.bloodveld.name=Bloodveld
+entity.bloodveld.description=Large demons that roam the hell and the overworld how they managed to get to the overworld is unknown but it spawns in spooky places feeding on whatever wildlife it can eat.
+entity.bloodveld.habitat=These demons roam hell and the overworld in spooky and dark areas
+entity.bloodveld.combat=Bloodvelds attack fast and hit hard, be careful.
+
+entity.dagganoth.name=Dagganoth
+entity.dagganoth.description=Large spiky beasts that roam watery areas and vast plains, they arent very happy on people intruding on their land.
+entity.dagganoth.habitat=These beasts can be found basking in beaches and plains.
+entity.dagganoth.combat=Dagganoths will inflict bleed so be careful!
+
+entity.mbielu.name=Mbielu
+entity.mbielu.description=Mbielu are small stegosauridae like creatures that graze in empty fields and often hang out with ngobou's
+entity.mbielu.habitat=Mbielu can be found in plans.
+entity.mbielu.combat=Mbielu will inflict poison if attacked.
+
+entity.ngobou.name=Ngobou
+entity.ngobou.description=Ngobou are large ceratopsid like creatures, they love chilling in plains and mountains, however handle with care because they will figth back if you hit them!
+entity.ngobou.habitat=Ngobous love to roam empty plains and vast mountains
+entity.ngobou.combat=Ngobou are usually peaceful.

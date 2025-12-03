@@ -1,0 +1,47 @@
+package com.lycaniteadditions.client.model;
+
+import com.lycanitesmobs.LycanitesMobs;
+import com.lycanitesmobs.client.model.template.ModelTemplateQuadruped;
+import net.minecraft.entity.EntityLiving;
+import net.minecraft.util.math.MathHelper;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+@SideOnly(Side.CLIENT)
+public class modelngobou extends ModelTemplateQuadruped {
+    public modelngobou() {
+        this(1.0F);
+    }
+
+    public modelngobou(float shadowSize) {
+        this.initModel("ngobou", LycanitesMobs.modInfo, "entity/ngobou");
+
+        this.trophyScale = 0.5F;
+        this.trophyOffset = new float[] {0.0F, 0.0F, -0.6F};
+
+        this.lookHeadScaleX = 0.5F;
+        this.lookHeadScaleY = 0.5F;
+        this.lookNeckScaleX = 0.25F;
+        this.lookNeckScaleY = 0.25F;
+    }
+
+    @Override
+    public void animatePart(String partName, EntityLiving entity, float time, float distance, float loop, float lookY, float lookX, float scale) {
+        super.animatePart(partName, entity, time, distance, loop, lookY, lookX, scale);
+
+        if (partName.contains("vine")) {
+            float rotX = 0;
+            float rotZ = 0;
+            if (partName.contains("left")) {
+                rotZ -= Math.toDegrees(MathHelper.cos(loop * 0.1F) * 0.1F + 0.1F);
+            }
+            if (partName.contains("right")) {
+                rotZ += Math.toDegrees(MathHelper.cos(loop * 1) * 0.1F + 0.1F);
+            }
+            if (!partName.contains("body")) {
+                rotX += Math.toDegrees(MathHelper.sin(loop * 0.067F) * 0.05F);
+            }
+            this.rotate(rotX, 0, rotZ);
+        }
+    }
+}

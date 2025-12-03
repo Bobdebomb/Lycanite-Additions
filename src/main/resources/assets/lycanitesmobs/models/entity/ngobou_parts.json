@@ -1,0 +1,82 @@
+[
+  {
+    "name": "legrightback",
+    "parent": "Body",
+    "centerX": "-1.048",
+    "centerY": "1.2",
+    "centerZ": "-1.0",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "legrightfront",
+    "parent": "Body",
+    "centerX": "-1.0",
+    "centerY": "1.2",
+    "centerZ": "0.9",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "Body",
+    "parent": "",
+    "centerX": "0.01",
+    "centerY": "3.414",
+    "centerZ": "-0.725",
+    "rotationX": "0.0",
+    "rotationY": "-179.708",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "Tail",
+    "parent": "",
+    "centerX": "0.052",
+    "centerY": "2.753",
+    "centerZ": "-2.079",
+    "rotationX": "28.502",
+    "rotationY": "178.523",
+    "rotationZ": "0.875"
+  },
+  {
+    "name": "Head",
+    "parent": "Body",
+    "centerX": "-0.001",
+    "centerY": "1.034",
+    "centerZ": "3.142",
+    "rotationX": "-12.97",
+    "rotationY": "178.865",
+    "rotationZ": "-0.561"
+  },
+  {
+    "name": "Mouth",
+    "parent": "",
+    "centerX": "-0.039",
+    "centerY": "1.185",
+    "centerZ": "1.517",
+    "rotationX": "12.821",
+    "rotationY": "1.372",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "legleftback",
+    "parent": "Body",
+    "centerX": "1.048",
+    "centerY": "1.2",
+    "centerZ": "-1.0",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "legleftfront",
+    "parent": "Body",
+    "centerX": "1.0",
+    "centerY": "1.2",
+    "centerZ": "0.9",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  }
+]
