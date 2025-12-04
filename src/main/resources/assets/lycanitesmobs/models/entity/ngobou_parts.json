@@ -42,16 +42,16 @@
   {
     "name": "Head",
     "parent": "Body",
-    "centerX": "-0.001",
-    "centerY": "1.034",
-    "centerZ": "3.142",
-    "rotationX": "-12.97",
-    "rotationY": "178.865",
-    "rotationZ": "-0.561"
+    "centerX": "-0.039",
+    "centerY": "1.185",
+    "centerZ": "1.517",
+    "rotationX": "12.821",
+    "rotationY": "1.372",
+    "rotationZ": "-0.0"
   },
   {
     "name": "Mouth",
-    "parent": "",
+    "parent": "Body",
     "centerX": "-0.039",
     "centerY": "1.185",
     "centerZ": "1.517",

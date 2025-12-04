@@ -30,9 +30,12 @@
   {
     "name": "Head",
     "parent": "Body",
-    "centerX": "0.0",
-    "centerY": "1.0",
-    "centerZ": "1.0"
+    "centerX": "-0.067",
+    "centerY": "2.069",
+    "centerZ": "2.38",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
   },
   {
     "name": "Mouth",
