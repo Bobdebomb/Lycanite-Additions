@@ -1,0 +1,108 @@
+{
+  "entity.lushrak.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/lushrak/say", "stream": false}]
+  },
+  "entity.lushrak.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/lushrak/hurt", "stream": false}]
+  },
+  "entity.lushrak.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/lushrak/death", "stream": false}]
+  },
+  "entity.lushrak.step": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/lushrak/step", "stream": false}]
+  },
+  "entity.lushrak.eat": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/lushrak/eat", "stream": false}]
+
+  },
+  "entity.fangtusk.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/fangtusk/say", "stream": false}]
+
+  },
+  "entity.fangtusk.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/fangtusk/death", "stream": false}]
+
+  },
+  "entity.fangtusk.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/fangtusk/hurt", "stream": false}]
+
+  },
+  "entity.fangtusk.step": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/fangtusk/step", "stream": false}]
+
+  },
+  "entity.parasight.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/parasight/hurt", "stream": false}]
+
+  },
+  "entity.parasight.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/parasight/death", "stream": false}]
+
+  },
+  "entity.parasight.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/parasight/say", "stream": false}]
+
+  },
+  "entity.ngobou.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/ngobou/death", "stream": false}]
+
+  },
+  "entity.ngobou.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/ngobou/hurt", "stream": false}]
+
+  },
+  "entity.ngobou.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/ngobou/say", "stream": false}]
+
+  },
+  "entity.ngobou.attack": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/ngobou/attack", "stream": false}]
+
+  },
+  "entity.mbielu.say": {
+    "category": "neutral",
+    "sounds": [{"name": "lycanitesmobs:entity/mbielu/say", "stream": false}]
+
+  },
+  "entity.mbielu.death": {
+    "category": "neutral",
+    "sounds": [{"name": "lycanitesmobs:entity/mbielu/death", "stream": false}]
+
+  },
+  "entity.mbielu.step": {
+    "category": "neutral",
+    "sounds": [{"name": "lycanitesmobs:entity/mbielu/step", "stream": false}]
+
+  },
+  "entity.mbielu.hurt": {
+    "category": "neutral",
+    "sounds": [{"name": "lycanitesmobs:entity/mbielu/hurt", "stream": false}]
+
+  },
+  "entity.bloodveld.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/bloodveld/say", "stream": false}]
+
+  },
+  "entity.bloodveld.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/bloodveld/death", "stream": false}]
+  }
+}
+

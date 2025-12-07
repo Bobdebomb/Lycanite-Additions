@@ -115,14 +115,10 @@ public class entitybloodveld extends RideableCreatureEntity {
     // ========== Melee Attack ==========
     @Override
     public boolean attackMelee(Entity target, double damageScale) {
-        if(!super.attackMelee(target, damageScale))
+        if (!super.attackMelee(target, damageScale))
             return false;
 
-        // Breed:
-        if((target instanceof EntityAnimal || (target instanceof BaseCreatureEntity && ((BaseCreatureEntity)target).creatureInfo.isFarmable())) && target.height >= 1F)
-            this.breed();
-
-        return true;
+        return false;
     }
 
     // ========== Special Attack ==========

@@ -1,82 +1,87 @@
 [
   {
-    "name": "Leftlegfront01",
-    "parent": "",
-    "centerX": "-0.323",
-    "centerY": "0.5",
-    "centerZ": "0.24",
-    "rotationX": "0.0",
-    "rotationY": "-68.695",
-    "rotationZ": "-0.0"
-  },
-  {
-    "name": "Leftlegfront02",
-    "parent": "",
-    "centerX": "-0.197",
-    "centerY": "0.5",
-    "centerZ": "-0.47",
-    "rotationX": "0.0",
-    "rotationY": "68.695",
-    "rotationZ": "-0.0"
-  },
-  {
-    "name": "Rightlegback01 ",
-    "parent": "",
-    "centerX": "1.168",
-    "centerY": "0.5",
-    "centerZ": "0.221",
-    "rotationX": "0.577",
-    "rotationY": "-96.376",
-    "rotationZ": "0.024"
-  },
-  {
-    "name": "Rightlegback02",
-    "parent": "",
-    "centerX": "1.168",
-    "centerY": "0.5",
-    "centerZ": "-0.385",
-    "rotationX": "0.577",
-    "rotationY": "-96.376",
-    "rotationZ": "0.024"
+    "name": "Mouth",
+    "parent": "Head",
+    "centerX": "0.0",
+    "centerY": "0.49",
+    "centerZ": "0.98"
   },
   {
     "name": "Head",
-    "parent": "",
-    "centerX": "-0.886",
-    "centerY": "0.657",
-    "centerZ": "-0.108",
-    "rotationX": "0.0",
-    "rotationY": "0.0",
-    "rotationZ": "-18.704"
+    "parent": "Body",
+    "centerX": "0.0",
+    "centerY": "0.6",
+    "centerZ": "0.85"
   },
   {
     "name": "Body",
     "parent": "",
-    "centerX": "0.822",
+    "centerX": "0.019",
     "centerY": "0.547",
-    "centerZ": "-0.111",
+    "centerZ": "-0.287",
     "rotationX": "0.0",
-    "rotationY": "0.0",
+    "rotationY": "90.234",
     "rotationZ": "-0.0"
   },
   {
-    "name": "Mouth",
-    "parent": "",
-    "centerX": "-1.107",
-    "centerY": "0.455",
-    "centerZ": "-0.225",
-    "rotationX": "-43.254",
-    "rotationY": "0.0",
+    "name": "Cone.006",
+    "parent": "Head",
+    "centerX": "0.0",
+    "centerY": "0.49",
+    "centerZ": "0.98"
+  },
+  {
+    "name": "Cone.001",
+    "parent": "Head",
+    "centerX": "0.0",
+    "centerY": "0.49",
+    "centerZ": "0.98"
+  },
+  {
+    "name": "Cone",
+    "parent": "Head",
+    "centerX": "0.0",
+    "centerY": "0.49",
+    "centerZ": "0.98"
+  },
+  {
+    "name": "LegLeftBack",
+    "parent": "Body",
+    "centerX": "0.349",
+    "centerY": "0.5",
+    "centerZ": "-0.635",
+    "rotationX": "0.577",
+    "rotationY": "-6.142",
+    "rotationZ": "0.024"
+  },
+  {
+    "name": "LegLeftFront",
+    "parent": "Body",
+    "centerX": "0.406",
+    "centerY": "0.327",
+    "centerZ": "0.84",
+    "rotationX": "0.0",
+    "rotationY": "21.539",
     "rotationZ": "-0.0"
   },
   {
-    "name": "Tail",
-    "parent": "",
-    "centerX": "2.103",
-    "centerY": "0.54",
-    "centerZ": "-0.103",
+    "name": "LegRightBack",
+    "parent": "Body",
+    "centerX": "-0.323",
+    "centerY": "0.327",
+    "centerZ": "-0.619",
+    "rotationX": "0.577",
+    "rotationY": "-6.142",
+    "rotationZ": "0.024"
+  },
+  {
+    "name": "LegRightFront",
+    "parent": "Body",
+    "centerX": "-0.32",
+    "centerY": "0.327",
+    "centerZ": "0.856",
     "rotationX": "0.0",
-    "rotationY": "0.0",
+    "rotationY": "21.539",
     "rotationZ": "-0.0"
   }
 ]

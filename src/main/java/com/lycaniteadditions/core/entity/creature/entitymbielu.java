@@ -52,21 +52,8 @@ public class entitymbielu extends AgeableCreatureEntity {
     //                      Spawn
     // ==================================================
     // ========== On Spawn ==========
-    @Override
-    public void onFirstSpawn() {
-        // Random Alpha:
-        CreatureInfo alphaInfo = CreatureManager.getInstance().getCreature("makaalpha");
-        if(alphaInfo != null) {
-            float alphaChance = (float)alphaInfo.creatureSpawn.spawnWeight / Math.max(this.creatureInfo.creatureSpawn.spawnWeight, 1);
-            if (this.getRNG().nextFloat() <= alphaChance) {
-                EntityMakaAlpha alpha = (EntityMakaAlpha)CreatureManager.getInstance().getCreature("makaalpha").createEntity(this.getEntityWorld());
-                alpha.copyLocationAndAnglesFrom(this);
-                this.getEntityWorld().spawnEntity(alpha);
-                this.setDead();
-            }
-        }
-        super.onFirstSpawn();
-    }
+;
+
 
     // ==================================================
     //                     Equipment
