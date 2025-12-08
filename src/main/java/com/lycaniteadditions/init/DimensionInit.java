@@ -1,15 +1,17 @@
 package com.lycaniteadditions.init;
 
-import com.lycaniteadditions.world.dimension_rifts.DimensionOuterRifts;
+import com.lycaniteadditions.handlers.ConfigHandler;
+import com.lycaniteadditions.world.Dimension_outerrifts.DimensionNetherTemp;
 import net.minecraft.world.DimensionType;
 import net.minecraftforge.common.DimensionManager;
 
 public class DimensionInit
 {
-    public static final DimensionType OUTERRIFTS = DimensionType.register("Outer Rifts", "_outerrifts", 2, DimensionOuterRifts.class, false);
+    public static final DimensionType NETHER_TEMP = DimensionType.register("NetherTemp", "_nethertemp", ConfigHandler.NETHER_TEMP, DimensionNetherTemp.class, false);;
 
     public static void registerDimensions()
     {
-        DimensionManager.registerDimension(2,OUTERRIFTS );
+        DimensionManager.registerDimension(ConfigHandler.NETHER_TEMP, NETHER_TEMP);
+
     }
 }

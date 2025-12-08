@@ -1,9 +1,7 @@
 package com.lycaniteadditions.core.info;
 
-import com.lycaniteadditions.core.info.altar.AltarInfoIrritated;
 import com.lycanitesmobs.LycanitesMobs;
 import com.lycanitesmobs.core.config.ConfigBase;
-import com.lycanitesmobs.core.info.altar.AltarInfoPhosphorescentChupacabra;
 import com.lycanitesmobs.core.mobevent.trigger.AltarMobEventTrigger;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.BlockPos;
@@ -89,6 +87,10 @@ public class AltarInfo {
     public static void createAltars() {
         com.lycaniteadditions.core.info.AltarInfo IrritatedAltar = new AltarInfo("Irritated");
         addAltar(IrritatedAltar);
+
+
+            com.lycaniteadditions.core.info.AltarInfo OuterAltar = new AltarInfo("Outer");
+            addAltar(OuterAltar);
 
     }
 

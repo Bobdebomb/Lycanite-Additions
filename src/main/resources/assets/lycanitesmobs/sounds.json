@@ -103,6 +103,43 @@
   "entity.bloodveld.death": {
     "category": "hostile",
     "sounds": [{"name": "lycanitesmobs:entity/bloodveld/death", "stream": false}]
+
+  },
+  "entity.bloodveld.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/bloodveld/hurt", "stream": false}]
+
+  },
+  "entity.dagganoth.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/dagganoth/hurt", "stream": false}]
+
+  },
+  "entity.dagganoth.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/dagganoth/say", "stream": false}]
+
+  },
+  "entity.jubjub.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/jubjub/say", "stream": false}]
+
+  },
+  "entity.jubjub.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/jubjub/death", "stream": false}]
+
+
+  },
+  "entity.jubjub.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/jubjub/hurt", "stream": false}]
+
+
+  },
+  "entity.dagganoth.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/dagganoth/hurt", "stream": false}]
   }
 }
 

@@ -7,8 +7,9 @@ import net.minecraftforge.common.BiomeManager;
 public class BiomeInit
 {
     public static final Biome OUTERRIFTS_Dimension = new BiomeOuterrifts();
+    public static Biome TEST_BIOME;
 
-public static void registerBiomes()
+    public static void registerBiomes()
 {
     initBiome(OUTERRIFTS_Dimension, "outer rifts", BiomeManager.BiomeType.WARM, BiomeDictionary.Type.SPOOKY, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.DRY);
 }

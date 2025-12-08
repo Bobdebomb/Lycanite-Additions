@@ -1,10 +1,6 @@
-package com.lycaniteadditions.world.dimension_rifts;
+package com.lycaniteadditions.world.Dimension_outerrifts;
 
-import java.util.List;
-import java.util.Random;
-
-import javax.annotation.Nullable;
-
+import com.lycaniteadditions.init.BiomeInit;
 import net.minecraft.block.BlockFalling;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -21,7 +17,8 @@ import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.MapGenBase;
 import net.minecraft.world.gen.MapGenCavesHell;
 import net.minecraft.world.gen.NoiseGeneratorOctaves;
-import net.minecraft.world.gen.feature.WorldGenHellLava;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.structure.MapGenNetherBridge;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.event.terraingen.ChunkGeneratorEvent.InitNoiseField;
@@ -31,17 +28,22 @@ import net.minecraftforge.event.terraingen.PopulateChunkEvent;
 import net.minecraftforge.event.terraingen.TerrainGen;
 import net.minecraftforge.fml.common.eventhandler.Event;
 
-public class ChunkGeneratorOuterRifts implements IChunkGenerator
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Random;
+
+@SuppressWarnings("unused")
+public class NetherGenTemplate implements IChunkGenerator
 {
     protected static final IBlockState AIR = Blocks.AIR.getDefaultState();
     protected static final IBlockState BEDROCK = Blocks.BEDROCK.getDefaultState();
     
     //Block that is usually Netherrack
-    protected static final IBlockState MAIN_BLOCK = Blocks.DIRT.getDefaultState();
+    protected static final IBlockState MAIN_BLOCK = Blocks.STONE.getDefaultState();
     //Block that is usally Lava
     protected static final IBlockState YOUR_LIQUID = Blocks.LAVA.getDefaultState();
     //Blocks that are usally gravel and soul sand
-    protected static final IBlockState OTHER_BLOCK1 = Blocks.STONE.getDefaultState();
+    protected static final IBlockState OTHER_BLOCK1 = Blocks.GRAVEL.getDefaultState();
     protected static final IBlockState OTHER_BLOCK2 = Blocks.DIAMOND_ORE.getDefaultState();
     
     private final World world;
@@ -52,20 +54,17 @@ public class ChunkGeneratorOuterRifts implements IChunkGenerator
     private NoiseGeneratorOctaves lperlinNoise1, lperlinNoise2, perlinNoise1, slowsandGravelNoiseGen, netherrackExculsivityNoiseGen, scaleNoise, depthNoise;
     double[] pnr, ar, br, dr, noiseData4;
     
-    /* Any Structures you want - These are all of the Nether Ones
-    private final WorldGenFire fireFeature = new WorldGenFire();
+	private final WorldGenFire fireFeature = new WorldGenFire();
     private final WorldGenGlowStone1 lightGemGen = new WorldGenGlowStone1();
     private final WorldGenGlowStone2 hellPortalGen = new WorldGenGlowStone2();
-    private final WorldGenerator quartzGen = new WorldGenMinable(Blocks.QUARTZ_ORE.getDefaultState(), 14, BlockMatcher.forBlock(Blocks.COPPER_BLOCK));
-    private final WorldGenerator magmaGen = new WorldGenMinable(Blocks.MAGMA.getDefaultState(), 33, BlockMatcher.forBlock(Blocks.COPPER_BLOCK));
     private final WorldGenBush brownMushroomFeature = new WorldGenBush(Blocks.BROWN_MUSHROOM);
     private final WorldGenBush redMushroomFeature = new WorldGenBush(Blocks.RED_MUSHROOM);
     private MapGenNetherBridge genNetherBridge = new MapGenNetherBridge();
-    */
+    
     private MapGenBase genNetherCaves = new MapGenCavesHell();
     private final WorldGenHellLava hellSpringGen = new WorldGenHellLava(Blocks.FLOWING_WATER, false);
 
-    public ChunkGeneratorOuterRifts(World world, boolean generate, long seed)
+    public NetherGenTemplate(World world, boolean generate, long seed)
     {
         this.world = world;
         this.generateStructures = generate;
@@ -277,7 +276,7 @@ public class ChunkGeneratorOuterRifts implements IChunkGenerator
 
         for (int i = 0; i < abyte.length; ++i)
         {
-
+            abyte[i] = (byte)Biome.getIdForBiome(BiomeInit.TEST_BIOME);
         }
 
         chunk.resetRelightChecks();
@@ -370,7 +369,8 @@ public class ChunkGeneratorOuterRifts implements IChunkGenerator
         return noiseField;
     }
 
-    @Override
+    @SuppressWarnings("deprecation")
+	@Override
     public void populate(int x, int z)
     {
         BlockFalling.fallInstantly = true;
