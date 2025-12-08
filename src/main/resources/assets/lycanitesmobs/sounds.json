@@ -140,6 +140,21 @@
   "entity.dagganoth.death": {
     "category": "hostile",
     "sounds": [{"name": "lycanitesmobs:entity/dagganoth/hurt", "stream": false}]
+
+  },
+  "entity.mycoflawg.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/mycoflawg/say", "stream": false}]
+
+  },
+  "entity.mycoflawg.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/mycoflawg/death", "stream": false}]
+
+  },
+  "entity.mycoflawg.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/mycoflawg/hurt", "stream": false}]
   }
 }
 
