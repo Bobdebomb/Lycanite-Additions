@@ -40,7 +40,7 @@
   "width": 2.9,
   "height": 3.9,
   "experience": 5,
-  "health": 20,
+  "health": 25,
   "defense": 0,
   "armor": 0,
   "speed": 28,
@@ -91,8 +91,8 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:raw_maka_meat",
-      "burningItem": "lycanitesmobs:cooked_maka_meat",
+      "item": "lycanitesmobs:raw_mbielu_meat",
+      "burningItem": "lycanitesmobs:cooked_mbielu_meat",
       "minAmount": 1,
       "maxAmount": 2,
       "chance": 1

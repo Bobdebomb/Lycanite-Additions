@@ -57,3 +57,22 @@ entity.eyesoar.name=Eyesoar
 entity.eyesoar.description=An abberation with wings and 3 eyeballs, they are strange creatures that serve no purpose.
 entity.eyesoar.habitat=Eyesoars love to linger around swamps and vast plains in the sky.
 entity.eyesoar.combat=Eyesoar inflicts aphagia aside from that it just hits you.
+
+item.raw_dagganoth_meat.name=Raw Dagganoth Meat
+item.raw_dagganoth_meat.description=A spiky squishy piece of dagganoth, you can feel the rage inside it cook it first.
+
+item.cooked_dagganoth_meat.name=Cooked Dagganoth Meat
+item.cooked_dagganoth_meat.description=A Beef-like piece of meat it looks like its still quivering and moving, really delicious though!
+
+
+item.raw_mbielu_meat.name=Raw Mbielu Meat
+item.raw_mbielu_meat.description=The meat is riddled with healthy nutrients, eat it!
+
+item.cooked_mbielu_meat.name=Cooked Mbielu Meat
+item.cooked_mbielu_meat.description=seared to perfection and great to eat!
+
+item.raw_ngobou_meat.name=Raw Ngobou Meat
+item.raw_ngobou_meat.description=Riddled with various poisons cook it before consuming.
+
+item.cooked_ngobou_meat.name=Cooked Ngobou Meat
+item.cooked_ngobou_meat.description=The poisons are gone! This beef-like meat is packed with nutrients.
