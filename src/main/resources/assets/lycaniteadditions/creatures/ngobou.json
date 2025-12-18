@@ -29,7 +29,7 @@
     "dungeonWeight": 0,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
-    "spawnGroupMax": 1,
+    "spawnGroupMax": 3,
     "spawnsInLight": true,
     "spawnsInDark": false,
     "worldDayMin": -1,
@@ -85,10 +85,16 @@
   "dungeonLevel": 1,
   "drops": [
     {
-      "item": "lycanitesmobs:raw_arisaur_meat",
-      "burningItem": "lycanitesmobs:cooked_arisaur_meat",
+      "item": "lycanitesmobs:raw_ngobou_meat",
+      "burningItem": "lycanitesmobs:cooked_ngobou_meat",
       "minAmount": 1,
       "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:bone",
+      "minAmount": 1,
+      "maxAmount": 6,
       "chance": 1
     }
   ],

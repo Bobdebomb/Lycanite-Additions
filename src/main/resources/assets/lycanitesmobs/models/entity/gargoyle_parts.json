@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Body",
+    "parent": "",
+    "centerX": "0.105",
+    "centerY": "2.021",
+    "centerZ": "-0.337",
+    "rotationX": "0.097",
+    "rotationY": "-89.571",
+    "rotationZ": "14.309"
+  },
+  {
+    "name": "RightArm",
+    "parent": "Body",
+    "centerX": "0.955",
+    "centerY": "3.282",
+    "centerZ": "-0.116",
+    "rotationX": "-9.737",
+    "rotationY": "0.279",
+    "rotationZ": "-17.975"
+  },
+  {
+    "name": "Mouth",
+    "parent": "Neck",
+    "centerX": "0.075",
+    "centerY": "4.095",
+    "centerZ": "0.229",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "Neck",
+    "parent": "Body",
+    "centerX": "0.077",
+    "centerY": "3.898",
+    "centerZ": "0.137",
+    "rotationX": "17.158",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "RightWing",
+    "parent": "Body",
+    "centerX": "1.291",
+    "centerY": "3.697",
+    "centerZ": "-1.442",
+    "rotationX": "87.483",
+    "rotationY": "63.651",
+    "rotationZ": "61.619"
+  },
+  {
+    "name": "RightLeg",
+    "parent": "Body",
+    "centerX": "-0.3",
+    "centerY": "1.3",
+    "centerZ": "-0.0"
+  },
+  {
+    "name": "LeftWing",
+    "parent": "Body",
+    "centerX": "-1.23",
+    "centerY": "3.576",
+    "centerZ": "-1.684",
+    "rotationX": "91.791",
+    "rotationY": "65.043",
+    "rotationZ": "61.382"
+  },
+  {
+    "name": "Wing.02",
+    "parent": "RightWing",
+    "centerX": "1.266",
+    "centerY": "4.057",
+    "centerZ": "-1.37",
+    "rotationX": "0.0",
+    "rotationY": "-24.349",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "Spike.02",
+    "parent": "",
+    "centerX": "-0.637",
+    "centerY": "4.62",
+    "centerZ": "0.056",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "LeftLeg",
+    "parent": "Body",
+    "centerX": "0.3",
+    "centerY": "1.3",
+    "centerZ": "-0.0"
+  },
+  {
+    "name": "LeftArm",
+    "parent": "Body",
+    "centerX": "-1.04",
+    "centerY": "2.566",
+    "centerZ": "-0.058",
+    "rotationX": "-9.737",
+    "rotationY": "0.279",
+    "rotationZ": "-17.975"
+  },
+  {
+    "name": "Wing",
+    "parent": "LeftWing",
+    "centerX": "-1.115",
+    "centerY": "4.057",
+    "centerZ": "-1.37",
+    "rotationX": "-0.0",
+    "rotationY": "-24.349",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "Spike.01",
+    "parent": "",
+    "centerX": "0.359",
+    "centerY": "4.461",
+    "centerZ": "0.302",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  }
+]

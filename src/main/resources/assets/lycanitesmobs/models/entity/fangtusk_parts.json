@@ -4,14 +4,14 @@
     "parent": "Head",
     "centerX": "0.0",
     "centerY": "0.49",
-    "centerZ": "0.98"
+    "centerZ": "1.2"
   },
   {
     "name": "Head",
     "parent": "Body",
     "centerX": "0.0",
     "centerY": "0.6",
-    "centerZ": "0.85"
+    "centerZ": "1.1"
   },
   {
     "name": "Body",
@@ -25,14 +25,14 @@
   },
   {
     "name": "Cone.006",
-    "parent": "Head",
+    "parent": "Mouth",
     "centerX": "0.0",
     "centerY": "0.49",
     "centerZ": "0.98"
   },
   {
     "name": "Cone.001",
-    "parent": "Head",
+    "parent": "Mouth",
     "centerX": "0.0",
     "centerY": "0.49",
     "centerZ": "0.98"
@@ -58,8 +58,8 @@
     "name": "LegLeftFront",
     "parent": "Body",
     "centerX": "0.406",
-    "centerY": "0.327",
-    "centerZ": "0.84",
+    "centerY": "0.527",
+    "centerZ": "0.74",
     "rotationX": "0.0",
     "rotationY": "21.539",
     "rotationZ": "-0.0"
@@ -78,8 +78,8 @@
     "name": "LegRightFront",
     "parent": "Body",
     "centerX": "-0.32",
-    "centerY": "0.327",
-    "centerZ": "0.856",
+    "centerY": "0.227",
+    "centerZ": "0.74",
     "rotationX": "0.0",
     "rotationY": "21.539",
     "rotationZ": "-0.0"

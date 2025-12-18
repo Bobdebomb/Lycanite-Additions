@@ -1,11 +1,11 @@
 {
-  "name": "lushrak",
+  "name": "gargoyle",
   "creatureType": "golem",
   "groups": [
     "monster"
   ],
-  "entityClass": "com.lycaniteadditions.core.entity.creature.entitylushrak",
-  "modelClass": "com.lycaniteadditions.client.model.modellushrak",
+  "entityClass": "com.lycaniteadditions.core.entity.creature.entitygargoyle",
+  "modelClass": "com.lycaniteadditions.client.model.modelgargoyle",
   "loadDefault": true,
   "enabled": true,
   "spawning": {
@@ -19,8 +19,8 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "forest",
-      "jungle"
+      "spooky",
+      "underground"
     ],
     "spawnWeight": 2,
     "dungeonWeight": 200,
@@ -35,11 +35,11 @@
   },
   "width": 1.9,
   "height": 3.5,
-  "experience": 10,
-  "health": 30,
+  "experience": 13,
+  "health": 45,
   "defense": 2,
-  "armor": 1,
-  "speed": 14,
+  "armor": 3,
+  "speed": 20,
   "damage": 3,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
@@ -57,32 +57,26 @@
       "variants": [
         {
           "index": 1,
-          "name": "azure",
+          "name": "dark",
           "type": "uncommon"
         },
         {
           "index": 2,
-          "name": "scarlet",
+          "name": "russet",
           "type": "uncommon"
-        },
-        {
-          "index": 3,
-          "name": "granite",
-          "scale": 2,
-          "type": "rare"
         }
       ]
     }
   ],
   "elements": [
-    "arbour"
+    "fae"
   ],
   "diets": [
     "geovore"
   ],
   "peaceful": false,
-  "summonable": false,
-  "tameable": true,
+  "summonable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 6,
   "dungeonLevel": 2,
@@ -94,25 +88,25 @@
       "chance": 1
     },
     {
-      "item": "minecraft:stone",
+      "item": "minecraft:magma_cream",
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1
     },
     {
-      "item": "minecraft:dirt",
+      "item": "minecraft:blaze_powder",
       "minAmount": 1,
       "maxAmount": 6,
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:lush_stone",
+      "item": "lycanitesmobs:magmacharge",
       "minAmount": 2,
       "maxAmount": 5,
       "chance": 1
     },
     {
-      "item": "minecraft:grass",
+      "item": "lycanitesmobs:soulstone_golem",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,

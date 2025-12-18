@@ -155,6 +155,52 @@
   "entity.mycoflawg.hurt": {
     "category": "hostile",
     "sounds": [{"name": "lycanitesmobs:entity/mycoflawg/hurt", "stream": false}]
+
+  },
+  "entity.gargoyle.attack": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/gargoyle/attack", "stream": false}]
+
+  },
+  "entity.gargoyle.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/gargoyle/say", "stream": false}]
+
+  },
+  "entity.gargoyle.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/gargoyle/death", "stream": false}]
+
+  },
+  "entity.gargoyle.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/gargoyle/hurt", "stream": false}]
+
+  },
+  "entity.beargon.hurt": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/beargon/hurt", "stream": false}]
+
+  },
+  "entity.beargon.tame": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/beargon/tame", "stream": false}]
+
+
+  },
+  "entity.beargon.say": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/beargon/say", "stream": false}]
+
+  },
+  "entity.beargon.attack": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/beargon/attack", "stream": false}]
+
+  },
+  "entity.beargon.death": {
+    "category": "hostile",
+    "sounds": [{"name": "lycanitesmobs:entity/beargon/death", "stream": false}]
   }
 }
 

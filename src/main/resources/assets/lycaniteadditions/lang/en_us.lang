@@ -5,74 +5,84 @@ subspecies.crimson.name=Crimson
 subspecies.oceanic.name=Oceanic
 subspecies.granite.name=Granite
 subspecies.glacier.name=Glacier
-
+subspecies.hellish.name=Hellish
 creaturetype.cocken.name=Cocken
 
 entity.fangtusk.description=Aglebemus warped and mutated by magic, they now roam around as vile large red beasts!
 entity.fangtusk.habitat=These beasts are usually found in swamplands.
 entity.fangtusk.combat=Fangtusks use their tusks to bash into you, causing poison ouch!
 entity.fangtusk.name=Fangtusk
-
+"_comment": "#############################",
 entity.parasight.description=Parasights are intresting creatures as they resmble eyeballs with weird spike appendages sticking out, they also have the weird ability to phase through the walls have fun with that.
 entity.parasight.habitat=In dark caves
 entity.parasight.combat=Parasights phase through the walls and attack, inflicting fear in the process.
 entity.parasight.name=Parasight
-
+"_comment": "#############################",
 entity.jubjub.description=Jubjubs are cockens that navigate the skies just like their cousins, the cockatrice!.
 entity.jubjub.habitat=In The skies of jungles
 entity.jubjub.combat=Jubjubs inflict paralysis on hit so be careful!
 entity.jubjub.name=Jubjub
-
+"_comment": "#############################",
 entity.lushrak.description=Golems that lurk in dense forests chilling, they do not like people intruding on them.
 entity.lushrak.habitat=Usually they chill in forests.
 entity.lushrak.combat=Lushraks will give you poison!
 entity.lushrak.name=Lushrak
-
+"_comment": "#############################",
 entity.mycoflawg.name=Mycoflawg
 entity.mycoflawg.description=Deadly predators that stalk mountains at night, similar to the Barghest.
 entity.mycoflawg.habitat=These beasts are usually found in mountainous areas.
 entity.mycoflawg.combat=Mycoflawgs leap at their prey and inflict bleeding.
-
+"_comment": "#############################",
 entity.bloodveld.name=Bloodveld
 entity.bloodveld.description=Large demons that roam the hell and the overworld how they managed to get to the overworld is unknown but it spawns in spooky places feeding on whatever wildlife it can eat.
 entity.bloodveld.habitat=These demons roam hell and the overworld in spooky and dark areas
 entity.bloodveld.combat=Bloodvelds attack fast and hit hard, be careful.
-
+"_comment": "#############################",
 entity.dagganoth.name=Dagganoth
 entity.dagganoth.description=Large spiky beasts that roam watery areas and vast plains, they arent very happy on people intruding on their land.
 entity.dagganoth.habitat=These beasts can be found basking in beaches and plains.
 entity.dagganoth.combat=Dagganoths will inflict bleed so be careful!
-
+"_comment": "#############################",
 entity.mbielu.name=Mbielu
 entity.mbielu.description=Mbielu are small stegosauridae like creatures that graze in empty fields and often hang out with ngobou's
 entity.mbielu.habitat=Mbielu can be found in plans.
 entity.mbielu.combat=Mbielu will inflict poison if attacked.
-
+"_comment": "#############################",
 entity.ngobou.name=Ngobou
 entity.ngobou.description=Ngobou are large ceratopsid like creatures, they love chilling in plains and mountains, however handle with care because they will figth back if you hit them!
 entity.ngobou.habitat=Ngobous love to roam empty plains and vast mountains
 entity.ngobou.combat=Ngobou are usually peaceful.
-
+"_comment": "#############################",
+entity.gargoyle.name=Gargoyle
+entity.gargoyle.description=Large golems that are made entirely out of stone!
+entity.gargoyle.habitat=Gargoyles roam around spooky places and subterranean caves.
+entity.gargoyle.combat=Gargoyles will whack you to death!
+"_comment": "#############################",
+entity.beargon.name=Beargon
+entity.beargon.description=Beargons are large wearwolf like dragons that roam around roofed forests lurking for prey.
+entity.beargon.habitat=Roofed forests and underground caves.
+entity.beargon.combat=Beargons inflict paralysis so be careful.
+"_comment": "#############################",
 entity.eyesoar.name=Eyesoar
 entity.eyesoar.description=An abberation with wings and 3 eyeballs, they are strange creatures that serve no purpose.
 entity.eyesoar.habitat=Eyesoars love to linger around swamps and vast plains in the sky.
 entity.eyesoar.combat=Eyesoar inflicts aphagia aside from that it just hits you.
-
+"_comment": "#############################",
 item.raw_dagganoth_meat.name=Raw Dagganoth Meat
 item.raw_dagganoth_meat.description=A spiky squishy piece of dagganoth, you can feel the rage inside it cook it first.
-
+"_comment": "",
 item.cooked_dagganoth_meat.name=Cooked Dagganoth Meat
 item.cooked_dagganoth_meat.description=A Beef-like piece of meat it looks like its still quivering and moving, really delicious though!
-
-
+"_comment": "",
 item.raw_mbielu_meat.name=Raw Mbielu Meat
 item.raw_mbielu_meat.description=The meat is riddled with healthy nutrients, eat it!
-
+"_comment": "",
 item.cooked_mbielu_meat.name=Cooked Mbielu Meat
 item.cooked_mbielu_meat.description=seared to perfection and great to eat!
-
+"_comment": "",
 item.raw_ngobou_meat.name=Raw Ngobou Meat
 item.raw_ngobou_meat.description=Riddled with various poisons cook it before consuming.
-
+"_comment": "",
 item.cooked_ngobou_meat.name=Cooked Ngobou Meat
 item.cooked_ngobou_meat.description=The poisons are gone! This beef-like meat is packed with nutrients.
+"_comment": "",
